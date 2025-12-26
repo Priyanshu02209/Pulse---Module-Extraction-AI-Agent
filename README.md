@@ -4,6 +4,8 @@ An AI-powered Streamlit application that extracts structured information from do
 
 ## Overview
 
+Video : https://drive.google.com/file/d/1DKdiZS9dAyiZbw43ENzUj7gFKa-s63tb/view?usp=sharing
+
 This project crawls help documentation websites, analyzes their structure and content, and automatically infers:
 - **Modules**: Major documentation categories (e.g., "User Management", "API Documentation")
 - **Submodules**: Specific functionalities under each module (e.g., "Create User", "Delete Account")

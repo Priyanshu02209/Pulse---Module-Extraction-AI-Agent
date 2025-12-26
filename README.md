@@ -12,15 +12,15 @@ This project crawls help documentation websites, analyzes their structure and co
 
 ## Features
 
-- ✅ **Intelligent Crawling**: Breadth-first crawling with depth/page limits, URL normalization, and redirect handling
-- ✅ **Content Extraction**: Strips navigation/headers/footers, preserves document hierarchy
-- ✅ **Module Inference**: Heuristic-based detection of modules and submodules from HTML structure
-- ✅ **Description Generation**: Automatic summarization from extracted content
-- ✅ **Persistent Caching**: Disk-based cache to avoid re-fetching pages across runs
-- ✅ **Streamlit UI**: User-friendly web interface for interactive extraction
-- ✅ **REST API**: FastAPI endpoint for programmatic access
-- ✅ **Docker Support**: Containerized deployment with docker-compose
-- ✅ **Unit Tests**: Comprehensive test suite for core functionality
+-  **Intelligent Crawling**: Breadth-first crawling with depth/page limits, URL normalization, and redirect handling
+-  **Content Extraction**: Strips navigation/headers/footers, preserves document hierarchy
+-  **Module Inference**: Heuristic-based detection of modules and submodules from HTML structure
+-  **Description Generation**: Automatic summarization from extracted content
+-  **Persistent Caching**: Disk-based cache to avoid re-fetching pages across runs
+-  **Streamlit UI**: User-friendly web interface for interactive extraction
+-  **REST API**: FastAPI endpoint for programmatic access
+-  **Docker Support**: Containerized deployment with docker-compose
+-  **Unit Tests**: Comprehensive test suite for core functionality
 
 ## Quick Start
 

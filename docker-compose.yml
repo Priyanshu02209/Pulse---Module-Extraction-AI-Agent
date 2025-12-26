@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  pulsegen-api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./cache:/app/cache
+      - ./samples/output:/app/samples/output
+    command: python -m uvicorn src.api:app --host 0.0.0.0 --port 8000
+    environment:
+      - PYTHONUNBUFFERED=1
+
+  pulsegen-ui:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./cache:/app/cache
+      - ./samples/output:/app/samples/output
+    command: streamlit run src/app.py --server.port=8501 --server.address=0.0.0.0
+    environment:
+      - PYTHONUNBUFFERED=1
+
